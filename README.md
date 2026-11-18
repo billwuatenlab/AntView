@@ -16,10 +16,14 @@ Go to **[Releases](../../releases/latest)** and download `AntView_Setup_<version
 2. Open **AntView** from the desktop icon or the Start menu.
 3. Click the blue folder button to open a report (`.h5`, `.csv`, `.aten`, `.ffs`, `.dat` or `.xls`).
 
-Requirements: Windows 10 or 11 (64-bit) with Microsoft Edge, which Windows includes. AntView runs fully offline and only on your own computer, at `127.0.0.1`.
+Requirements: Windows 10 or 11 (64-bit) with Microsoft Edge, which Windows includes. AntView runs only on your own computer, at `127.0.0.1`, and goes online only to check this page for updates.
 
 To uninstall, use Windows Settings ▸ Apps ▸ AntView.
 
 ## Versions
 
 AntView uses the same version number as the MWS build it comes from, for example `b152`.
+
+## Updates
+
+AntView checks for a newer release each day when it starts. When one is available, a **New version … — Update** button appears in the top bar. Click it, and AntView downloads the installer, verifies its SHA-256, installs it and reopens. You can also click **Check for updates** at any time.
